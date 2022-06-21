@@ -1,0 +1,11 @@
+{
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.formatOnSave": false,
+    },
+    "eslint.packageManager": "yarn",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+}

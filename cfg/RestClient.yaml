@@ -1,0 +1,5 @@
+example:
+  ipify1: "{{staticParam}}/{{file}}?{{abc}}"
+  ipify2:
+    method: get # default value is get if remove method define.
+    endPoint: "{{staticParam}}/{{file}}"
