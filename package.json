@@ -1,13 +1,9 @@
 {
   "name": "@fot/restclient",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Rest Client for both node and browser",
   "main": "dist/RestClient.js",
   "types": "dist/RestClient.d.ts",
-  "publishConfig": {
-    "registry": "http://nexus.lan.fot.cool/repository/NpmHosted/",
-    "access": "restricted"
-  },
   "engines": {
     "node": ">=14.16.x",
     "yarn": ">=1.22.x"
