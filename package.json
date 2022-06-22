@@ -19,7 +19,7 @@
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",
     "prepublish": "rimraf dist && mkdir dist && tsc && mv temp/src/libs/* dist/ && rimraf temp"
   },
-  "author": "Teddy Wang <teddy.wang@fot.sg> (http://www.fot.sg)",
+  "author": "http://www.fot.sg",
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/cls-hooked": "^4.3.3",
