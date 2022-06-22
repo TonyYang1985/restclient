@@ -1,12 +1,16 @@
 {
   "name": "@fot/restclient",
-  "version": "0.5.4",
+  "version": "0.5.6",
   "description": "Rest Client for both node and browser",
   "main": "dist/RestClient.js",
   "types": "dist/RestClient.d.ts",
   "engines": {
     "node": ">=14.16.x",
     "yarn": ">=1.22.x"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev": "http-server",
@@ -58,5 +62,16 @@
     "lodash": "^4.17.21",
     "mergejson": "^1.1.2",
     "mustache": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyYang1985/restclient.git"
+  },
+  "keywords": [
+    "restclient"
+  ],
+  "bugs": {
+    "url": "https://github.com/TonyYang1985/restclient/issues"
+  },
+  "homepage": "https://github.com/TonyYang1985/restclient#readme"
 }
