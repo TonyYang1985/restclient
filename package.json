@@ -1,6 +1,6 @@
 {
   "name": "@fot/restclient",
-  "version": "0.5.6",
+  "version": "1.0.2",
   "description": "Rest Client for both node and browser",
   "main": "dist/RestClient.js",
   "types": "dist/RestClient.d.ts",
