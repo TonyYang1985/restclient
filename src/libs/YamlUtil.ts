@@ -1,7 +1,7 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import yaml from 'js-yaml';
 import fs from 'fs';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const mergejson = require('mergejson');
 
 export const loadConfig = (name: string): any => {

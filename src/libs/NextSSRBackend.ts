@@ -1,9 +1,9 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import yaml from 'js-yaml';
 import { RestClientBackend, APIConfig, RestClient } from './RestClient';
 import { promises as fsp } from 'fs';
 import { HttpBackendOptions, StateProvider } from './HttpBackend';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const mergejson = require('mergejson');
 
 export type RequestHeader = {

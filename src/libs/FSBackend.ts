@@ -1,9 +1,10 @@
-import { getNamespace, Namespace, createNamespace, destroyNamespace } from 'cls-hooked';
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Namespace, createNamespace, destroyNamespace } from 'cls-hooked';
 import _ from 'lodash';
 import { RestClientBackend, APIConfig, RestClient } from './RestClient';
 import { loadConfig } from './YamlUtil';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const mergejson = require('mergejson');
 const API_SESSION = 'API_SESSION';
 const REQUEST_HEADER = 'REQUEST_HEADER';
@@ -20,7 +21,6 @@ export class FSBackend implements RestClientBackend {
     }
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async load(rc: RestClient): Promise<APIConfig> {
     return this.cfgNames.map((name) => loadConfig(name)).reduce((p, c) => mergejson(p, c));
   }

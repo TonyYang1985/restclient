@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-var-requires */
 import Axios from 'axios';
 import yaml from 'js-yaml';
 import { RestClientBackend, APIConfig, RestClient } from './RestClient';
@@ -5,7 +7,6 @@ import EventEmitter from 'eventemitter3';
 
 const events = new EventEmitter();
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const mergejson = require('mergejson');
 const hash = (str: string) => {
   let hash = 0;
